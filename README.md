@@ -4,7 +4,7 @@ A simple browser console script that automatically scrolls through Slack’s vir
 
 ## Purpose
 
-Slack uses virtualized scrolling for its member list, meaning that only a subset of members is loaded in the DOM at any time. This script automates scrolling through the list and extracts the text from all `<strong data-qa="member_name">` elements—giving you a full list of member names (e.g., "kmw", etc.).
+Slack uses virtualized scrolling for its member list, meaning that only a subset of members is loaded in the DOM at any time. This script automates scrolling through the list and extracts the text from all `<strong data-qa="member_name">` elements—giving you a full list of member names.
 
 ## Usage
 
